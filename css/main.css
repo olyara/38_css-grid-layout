@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "hanskendrick";
+  src: url(../fonts/hanskendrick-regular.otf);
+}
+
+body {
+  background: #e2e7ec;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+
+body,
+form,
+div,
+p,
+a,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+table tr,
+table td {
+  border: none;
+  color: #000000;
+  font-family: "hanskendrick";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  font-family: Arial;
+  font-size: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.mainer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 90px 0 0;
+}
+
+.grid-wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.big-article {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url(../images/red-car.png);
+  max-width: 740px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 40px;
+}
+
+.big-article .date {
+  font-size: 13px;
+  color: #818181;
+  font-family: "hanskendrick";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.big-article .caption {
+  font-size: 30px;
+  color: #fff;
+  font-family: "hanskendrick";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.small-article {
+  background-color: #fff;
+  max-width: 360px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.small-article .image img {
+  width: 100%;
+}
+
+.small-article .date {
+  font-size: 13px;
+  color: #818181;
+  font-family: "hanskendrick";
+  margin: 25px 0 0 28px;
+  text-transform: uppercase;
+}
+
+.small-article .caption {
+  font-size: 22px;
+  color: #1d1d1d;
+  font-family: "hanskendrick";
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 14px 0 0 28px;
+}
+
+.small-article .author {
+  margin: 66px 0 20px 28px;
+}
+
+.footer {
+  margin: 77px auto 20px;
+  text-align: center;
+}
+
+.footer * {
+  display: inline;
+}
+
+.footer .icon {
+  color: #8b99a5;
+  font-size: 24px;
+}
+
+.footer .loading {
+  font-size: 13px;
+  color: #99a5b0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
