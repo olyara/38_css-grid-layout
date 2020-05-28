@@ -61,7 +61,8 @@ a:hover {
 .mainer {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 90px 0 0;
+  padding: 90px 10px 0;
+  box-sizing: border-box;
 }
 
 .grid-wrapper {
